@@ -9,7 +9,8 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    int  pooh = 2;
+    printf("In main(),pooh==%d  and  pooh = %p\n",pooh,&pooh);
+    
     return 0;
 }

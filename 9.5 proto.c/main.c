@@ -7,9 +7,19 @@
 //
 
 #include <stdio.h>
-
+int imax(int,int); //函数原型
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    int num1,num2;
+    if (scanf("%d %d",&num1,&num2) == 2) {
+        printf("The maximum of of %d and %d is %d.\n",num1,num2,imax(num1,num2));
+
+    }
+//    printf("The maximum of of %d and %d is %d.\n",3,5,imax(3,5));
+    
+    
     return 0;
+}
+int imax(int n,int m)
+{
+    return (n>m?n:m);
 }

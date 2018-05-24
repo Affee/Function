@@ -7,9 +7,24 @@
 //
 
 #include <stdio.h>
+void interchange(int *u,int *v);
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    int x = 5,y = 10;
+    printf("Originally x= %d and y = %d.\n",x,y);
+    printf("=====%p=====%p\n",&x,&y);
+    interchange(&x,&y);
+    printf("=====%p=====%p\n",&x,&y);
+    printf("NOW x = %d and y = %d.\n",x,y);
+    
     return 0;
+}
+void interchange(int *u,int *v)
+{
+    int temp;
+    temp = *u;
+    *u = *v;
+    
+    *v = temp;
+    printf("函数。。。。");
 }

@@ -8,10 +8,101 @@
 
 /* Begin PBXBuildFile section */
 		F6088B1320A2D7C40045B759 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F6088B1220A2D7C40045B759 /* main.c */; };
+		F6088B2020A2F1610045B759 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F6088B1F20A2F1610045B759 /* main.c */; };
+		F6088B2B20A2F6B00045B759 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F6088B2A20A2F6B00045B759 /* main.c */; };
+		F6088B3620A311550045B759 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F6088B3520A311550045B759 /* main.c */; };
+		F6088B4120A427D00045B759 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F6088B4020A427D00045B759 /* main.c */; };
+		F6088B4C20A42FA30045B759 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F6088B4B20A42FA30045B759 /* main.c */; };
+		F6088B5720A439880045B759 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F6088B5620A439880045B759 /* main.c */; };
+		F6088B5D20A43F360045B759 /* hotel.c in Sources */ = {isa = PBXBuildFile; fileRef = F6088B5C20A43F360045B759 /* hotel.c */; };
+		F6088B6520A443E50045B759 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F6088B6420A443E50045B759 /* main.c */; };
+		F6088B7020A4621E0045B759 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F6088B6F20A4621E0045B759 /* main.c */; };
+		F616D9C020A540990068118C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F616D9BF20A540990068118C /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		F6088B0D20A2D7C40045B759 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F6088B1B20A2F1610045B759 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F6088B2620A2F6B00045B759 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F6088B3120A311550045B759 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F6088B3C20A427D00045B759 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F6088B4720A42FA30045B759 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F6088B5220A439880045B759 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F6088B6020A443E50045B759 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F6088B6B20A4621E0045B759 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F616D9BB20A540990068118C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +116,93 @@
 /* Begin PBXFileReference section */
 		F6088B0F20A2D7C40045B759 /* 第九章 函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第九章 函数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6088B1220A2D7C40045B759 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F6088B1D20A2F1610045B759 /* 9.2 lethead2.c程序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9.2 lethead2.c程序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6088B1F20A2F1610045B759 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F6088B2820A2F6B00045B759 /* 9.3 lesser.c 程序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9.3 lesser.c 程序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6088B2A20A2F6B00045B759 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F6088B3320A311550045B759 /* 9.5 proto.c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9.5 proto.c"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6088B3520A311550045B759 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F6088B3E20A427D00045B759 /* 9.6 递归演示 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9.6 递归演示"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6088B4020A427D00045B759 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F6088B4920A42FA30045B759 /* 9.7 factor.c程序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9.7 factor.c程序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6088B4B20A42FA30045B759 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F6088B5420A439880045B759 /* 9.8 binary.c 程序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9.8 binary.c 程序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6088B5620A439880045B759 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F6088B5B20A43F360045B759 /* hotel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hotel.h; sourceTree = "<group>"; };
+		F6088B5C20A43F360045B759 /* hotel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hotel.c; sourceTree = "<group>"; };
+		F6088B6220A443E50045B759 /* 9.12 loccheck.c程序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9.12 loccheck.c程序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6088B6420A443E50045B759 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F6088B6D20A4621E0045B759 /* 9.6 更改主调函数的变量 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9.6 更改主调函数的变量"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6088B6F20A4621E0045B759 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F616D9BD20A540990068118C /* 9.7.3 使用指针在函数间通信 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9.7.3 使用指针在函数间通信"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F616D9BF20A540990068118C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F6088B0C20A2D7C40045B759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6088B1A20A2F1610045B759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6088B2520A2F6B00045B759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6088B3020A311550045B759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6088B3B20A427D00045B759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6088B4620A42FA30045B759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6088B5120A439880045B759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6088B5F20A443E50045B759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6088B6A20A4621E0045B759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F616D9BA20A540990068118C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +216,15 @@
 			isa = PBXGroup;
 			children = (
 				F6088B1120A2D7C40045B759 /* 第九章 函数 */,
+				F6088B1E20A2F1610045B759 /* 9.2 lethead2.c程序 */,
+				F6088B2920A2F6B00045B759 /* 9.3 lesser.c 程序 */,
+				F6088B3420A311550045B759 /* 9.5 proto.c */,
+				F6088B3F20A427D00045B759 /* 9.6 递归演示 */,
+				F6088B4A20A42FA30045B759 /* 9.7 factor.c程序 */,
+				F6088B5520A439880045B759 /* 9.8 binary.c 程序 */,
+				F6088B6320A443E50045B759 /* 9.12 loccheck.c程序 */,
+				F6088B6E20A4621E0045B759 /* 9.6 更改主调函数的变量 */,
+				F616D9BE20A540990068118C /* 9.7.3 使用指针在函数间通信 */,
 				F6088B1020A2D7C40045B759 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +233,15 @@
 			isa = PBXGroup;
 			children = (
 				F6088B0F20A2D7C40045B759 /* 第九章 函数 */,
+				F6088B1D20A2F1610045B759 /* 9.2 lethead2.c程序 */,
+				F6088B2820A2F6B00045B759 /* 9.3 lesser.c 程序 */,
+				F6088B3320A311550045B759 /* 9.5 proto.c */,
+				F6088B3E20A427D00045B759 /* 9.6 递归演示 */,
+				F6088B4920A42FA30045B759 /* 9.7 factor.c程序 */,
+				F6088B5420A439880045B759 /* 9.8 binary.c 程序 */,
+				F6088B6220A443E50045B759 /* 9.12 loccheck.c程序 */,
+				F6088B6D20A4621E0045B759 /* 9.6 更改主调函数的变量 */,
+				F616D9BD20A540990068118C /* 9.7.3 使用指针在函数间通信 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +252,80 @@
 				F6088B1220A2D7C40045B759 /* main.c */,
 			);
 			path = "第九章 函数";
+			sourceTree = "<group>";
+		};
+		F6088B1E20A2F1610045B759 /* 9.2 lethead2.c程序 */ = {
+			isa = PBXGroup;
+			children = (
+				F6088B1F20A2F1610045B759 /* main.c */,
+			);
+			path = "9.2 lethead2.c程序";
+			sourceTree = "<group>";
+		};
+		F6088B2920A2F6B00045B759 /* 9.3 lesser.c 程序 */ = {
+			isa = PBXGroup;
+			children = (
+				F6088B2A20A2F6B00045B759 /* main.c */,
+			);
+			path = "9.3 lesser.c 程序";
+			sourceTree = "<group>";
+		};
+		F6088B3420A311550045B759 /* 9.5 proto.c */ = {
+			isa = PBXGroup;
+			children = (
+				F6088B3520A311550045B759 /* main.c */,
+			);
+			path = "9.5 proto.c";
+			sourceTree = "<group>";
+		};
+		F6088B3F20A427D00045B759 /* 9.6 递归演示 */ = {
+			isa = PBXGroup;
+			children = (
+				F6088B4020A427D00045B759 /* main.c */,
+			);
+			path = "9.6 递归演示";
+			sourceTree = "<group>";
+		};
+		F6088B4A20A42FA30045B759 /* 9.7 factor.c程序 */ = {
+			isa = PBXGroup;
+			children = (
+				F6088B4B20A42FA30045B759 /* main.c */,
+			);
+			path = "9.7 factor.c程序";
+			sourceTree = "<group>";
+		};
+		F6088B5520A439880045B759 /* 9.8 binary.c 程序 */ = {
+			isa = PBXGroup;
+			children = (
+				F6088B5620A439880045B759 /* main.c */,
+				F6088B5B20A43F360045B759 /* hotel.h */,
+				F6088B5C20A43F360045B759 /* hotel.c */,
+			);
+			path = "9.8 binary.c 程序";
+			sourceTree = "<group>";
+		};
+		F6088B6320A443E50045B759 /* 9.12 loccheck.c程序 */ = {
+			isa = PBXGroup;
+			children = (
+				F6088B6420A443E50045B759 /* main.c */,
+			);
+			path = "9.12 loccheck.c程序";
+			sourceTree = "<group>";
+		};
+		F6088B6E20A4621E0045B759 /* 9.6 更改主调函数的变量 */ = {
+			isa = PBXGroup;
+			children = (
+				F6088B6F20A4621E0045B759 /* main.c */,
+			);
+			path = "9.6 更改主调函数的变量";
+			sourceTree = "<group>";
+		};
+		F616D9BE20A540990068118C /* 9.7.3 使用指针在函数间通信 */ = {
+			isa = PBXGroup;
+			children = (
+				F616D9BF20A540990068118C /* main.c */,
+			);
+			path = "9.7.3 使用指针在函数间通信";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +348,159 @@
 			productReference = F6088B0F20A2D7C40045B759 /* 第九章 函数 */;
 			productType = "com.apple.product-type.tool";
 		};
+		F6088B1C20A2F1610045B759 /* 9.2 lethead2.c程序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6088B2320A2F1610045B759 /* Build configuration list for PBXNativeTarget "9.2 lethead2.c程序" */;
+			buildPhases = (
+				F6088B1920A2F1610045B759 /* Sources */,
+				F6088B1A20A2F1610045B759 /* Frameworks */,
+				F6088B1B20A2F1610045B759 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "9.2 lethead2.c程序";
+			productName = "9.2 lethead2.c程序";
+			productReference = F6088B1D20A2F1610045B759 /* 9.2 lethead2.c程序 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F6088B2720A2F6B00045B759 /* 9.3 lesser.c 程序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6088B2C20A2F6B00045B759 /* Build configuration list for PBXNativeTarget "9.3 lesser.c 程序" */;
+			buildPhases = (
+				F6088B2420A2F6B00045B759 /* Sources */,
+				F6088B2520A2F6B00045B759 /* Frameworks */,
+				F6088B2620A2F6B00045B759 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "9.3 lesser.c 程序";
+			productName = "9.3 lesser.c 程序";
+			productReference = F6088B2820A2F6B00045B759 /* 9.3 lesser.c 程序 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F6088B3220A311550045B759 /* 9.5 proto.c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6088B3720A311550045B759 /* Build configuration list for PBXNativeTarget "9.5 proto.c" */;
+			buildPhases = (
+				F6088B2F20A311550045B759 /* Sources */,
+				F6088B3020A311550045B759 /* Frameworks */,
+				F6088B3120A311550045B759 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "9.5 proto.c";
+			productName = "9.5 proto.c";
+			productReference = F6088B3320A311550045B759 /* 9.5 proto.c */;
+			productType = "com.apple.product-type.tool";
+		};
+		F6088B3D20A427D00045B759 /* 9.6 递归演示 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6088B4220A427D00045B759 /* Build configuration list for PBXNativeTarget "9.6 递归演示" */;
+			buildPhases = (
+				F6088B3A20A427D00045B759 /* Sources */,
+				F6088B3B20A427D00045B759 /* Frameworks */,
+				F6088B3C20A427D00045B759 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "9.6 递归演示";
+			productName = "9.6 递归演示";
+			productReference = F6088B3E20A427D00045B759 /* 9.6 递归演示 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F6088B4820A42FA30045B759 /* 9.7 factor.c程序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6088B4D20A42FA30045B759 /* Build configuration list for PBXNativeTarget "9.7 factor.c程序" */;
+			buildPhases = (
+				F6088B4520A42FA30045B759 /* Sources */,
+				F6088B4620A42FA30045B759 /* Frameworks */,
+				F6088B4720A42FA30045B759 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "9.7 factor.c程序";
+			productName = "9.7 factor.c程序";
+			productReference = F6088B4920A42FA30045B759 /* 9.7 factor.c程序 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F6088B5320A439880045B759 /* 9.8 binary.c 程序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6088B5820A439880045B759 /* Build configuration list for PBXNativeTarget "9.8 binary.c 程序" */;
+			buildPhases = (
+				F6088B5020A439880045B759 /* Sources */,
+				F6088B5120A439880045B759 /* Frameworks */,
+				F6088B5220A439880045B759 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "9.8 binary.c 程序";
+			productName = "9.8 binary.c 程序";
+			productReference = F6088B5420A439880045B759 /* 9.8 binary.c 程序 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F6088B6120A443E50045B759 /* 9.12 loccheck.c程序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6088B6620A443E50045B759 /* Build configuration list for PBXNativeTarget "9.12 loccheck.c程序" */;
+			buildPhases = (
+				F6088B5E20A443E50045B759 /* Sources */,
+				F6088B5F20A443E50045B759 /* Frameworks */,
+				F6088B6020A443E50045B759 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "9.12 loccheck.c程序";
+			productName = "9.12 loccheck.c程序";
+			productReference = F6088B6220A443E50045B759 /* 9.12 loccheck.c程序 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F6088B6C20A4621E0045B759 /* 9.6 更改主调函数的变量 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6088B7120A4621E0045B759 /* Build configuration list for PBXNativeTarget "9.6 更改主调函数的变量" */;
+			buildPhases = (
+				F6088B6920A4621E0045B759 /* Sources */,
+				F6088B6A20A4621E0045B759 /* Frameworks */,
+				F6088B6B20A4621E0045B759 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "9.6 更改主调函数的变量";
+			productName = "9.6 更改主调函数的变量";
+			productReference = F6088B6D20A4621E0045B759 /* 9.6 更改主调函数的变量 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F616D9BC20A540990068118C /* 9.7.3 使用指针在函数间通信 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F616D9C320A540990068118C /* Build configuration list for PBXNativeTarget "9.7.3 使用指针在函数间通信" */;
+			buildPhases = (
+				F616D9B920A540990068118C /* Sources */,
+				F616D9BA20A540990068118C /* Frameworks */,
+				F616D9BB20A540990068118C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "9.7.3 使用指针在函数间通信";
+			productName = "9.7.3 使用指针在函数间通信";
+			productReference = F616D9BD20A540990068118C /* 9.7.3 使用指针在函数间通信 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +511,42 @@
 				ORGANIZATIONNAME = affee;
 				TargetAttributes = {
 					F6088B0E20A2D7C40045B759 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F6088B1C20A2F1610045B759 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F6088B2720A2F6B00045B759 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F6088B3220A311550045B759 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F6088B3D20A427D00045B759 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F6088B4820A42FA30045B759 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F6088B5320A439880045B759 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F6088B6120A443E50045B759 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F6088B6C20A4621E0045B759 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F616D9BC20A540990068118C = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -110,6 +565,15 @@
 			projectRoot = "";
 			targets = (
 				F6088B0E20A2D7C40045B759 /* 第九章 函数 */,
+				F6088B1C20A2F1610045B759 /* 9.2 lethead2.c程序 */,
+				F6088B2720A2F6B00045B759 /* 9.3 lesser.c 程序 */,
+				F6088B3220A311550045B759 /* 9.5 proto.c */,
+				F6088B3D20A427D00045B759 /* 9.6 递归演示 */,
+				F6088B4820A42FA30045B759 /* 9.7 factor.c程序 */,
+				F6088B5320A439880045B759 /* 9.8 binary.c 程序 */,
+				F6088B6120A443E50045B759 /* 9.12 loccheck.c程序 */,
+				F6088B6C20A4621E0045B759 /* 9.6 更改主调函数的变量 */,
+				F616D9BC20A540990068118C /* 9.7.3 使用指针在函数间通信 */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +584,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6088B1320A2D7C40045B759 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6088B1920A2F1610045B759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6088B2020A2F1610045B759 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6088B2420A2F6B00045B759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6088B2B20A2F6B00045B759 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6088B2F20A311550045B759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6088B3620A311550045B759 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6088B3A20A427D00045B759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6088B4120A427D00045B759 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6088B4520A42FA30045B759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6088B4C20A42FA30045B759 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6088B5020A439880045B759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6088B5D20A43F360045B759 /* hotel.c in Sources */,
+				F6088B5720A439880045B759 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6088B5E20A443E50045B759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6088B6520A443E50045B759 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6088B6920A4621E0045B759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6088B7020A4621E0045B759 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F616D9B920A540990068118C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F616D9C020A540990068118C /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +782,150 @@
 			};
 			name = Release;
 		};
+		F6088B2120A2F1610045B759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6088B2220A2F1610045B759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6088B2D20A2F6B00045B759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6088B2E20A2F6B00045B759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6088B3820A311550045B759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6088B3920A311550045B759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6088B4320A427D00045B759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6088B4420A427D00045B759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6088B4E20A42FA30045B759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6088B4F20A42FA30045B759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6088B5920A439880045B759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6088B5A20A439880045B759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6088B6720A443E50045B759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6088B6820A443E50045B759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6088B7220A4621E0045B759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6088B7320A4621E0045B759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F616D9C120A540990068118C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F616D9C220A540990068118C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -262,6 +943,87 @@
 			buildConfigurations = (
 				F6088B1720A2D7C40045B759 /* Debug */,
 				F6088B1820A2D7C40045B759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6088B2320A2F1610045B759 /* Build configuration list for PBXNativeTarget "9.2 lethead2.c程序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6088B2120A2F1610045B759 /* Debug */,
+				F6088B2220A2F1610045B759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6088B2C20A2F6B00045B759 /* Build configuration list for PBXNativeTarget "9.3 lesser.c 程序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6088B2D20A2F6B00045B759 /* Debug */,
+				F6088B2E20A2F6B00045B759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6088B3720A311550045B759 /* Build configuration list for PBXNativeTarget "9.5 proto.c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6088B3820A311550045B759 /* Debug */,
+				F6088B3920A311550045B759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6088B4220A427D00045B759 /* Build configuration list for PBXNativeTarget "9.6 递归演示" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6088B4320A427D00045B759 /* Debug */,
+				F6088B4420A427D00045B759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6088B4D20A42FA30045B759 /* Build configuration list for PBXNativeTarget "9.7 factor.c程序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6088B4E20A42FA30045B759 /* Debug */,
+				F6088B4F20A42FA30045B759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6088B5820A439880045B759 /* Build configuration list for PBXNativeTarget "9.8 binary.c 程序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6088B5920A439880045B759 /* Debug */,
+				F6088B5A20A439880045B759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6088B6620A443E50045B759 /* Build configuration list for PBXNativeTarget "9.12 loccheck.c程序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6088B6720A443E50045B759 /* Debug */,
+				F6088B6820A443E50045B759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6088B7120A4621E0045B759 /* Build configuration list for PBXNativeTarget "9.6 更改主调函数的变量" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6088B7220A4621E0045B759 /* Debug */,
+				F6088B7320A4621E0045B759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F616D9C320A540990068118C /* Build configuration list for PBXNativeTarget "9.7.3 使用指针在函数间通信" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F616D9C120A540990068118C /* Debug */,
+				F616D9C220A540990068118C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
